@@ -15,7 +15,7 @@ const Home = () => {
  // (`${import.meta.env.VITE_API_URL}/api/item`
   useEffect(() => {
     axios
-      .get(`${import.meta.env.VITE_API_URL}/api/item`, { withCredentials: true })
+      .get("https://reel-comm-backend-3.onrender.com//api/item", { withCredentials: true })
       .then((res) => {
         setVideos(res.data.items); // Make sure backend returns items array
       })

@@ -17,7 +17,7 @@ const AdminRegister = () => {
 
     try {
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}/api/user/adminregister`,
+        "https://reel-comm-backend-3.onrender.com/api/user/adminregister",
         { fullname, BusinessName, phone, address, email, password },
         { withCredentials: true }
       );

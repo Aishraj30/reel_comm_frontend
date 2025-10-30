@@ -13,7 +13,7 @@ const UserLogin = () => {
 
     try {
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}/api/user/login`,
+        "https://reel-comm-backend-3.onrender.com/api/user/login",
         { email, password },
         { withCredentials: true }
       );
