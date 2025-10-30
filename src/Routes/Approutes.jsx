@@ -7,7 +7,7 @@ import UserLogin from "../pages/auth/UserLogin";
 import UserRegister from "../pages/auth/UserRegister";
 import AdminLogin from "../pages/auth/AdminLogin";
 import AdminRegister from "../pages/auth/AdminRegister";
-import Home from "../pages/general/home";
+import Home from "../pages/general/Home";
 import Mainhome from "../pages/general/MainHome";
 import Createitem from "../pages/admin/Createitem";
 // import Adminprofile from "../pages/admin/Adminprofile";
