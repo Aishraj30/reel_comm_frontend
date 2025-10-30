@@ -44,7 +44,7 @@ const OptionForm = () => {
       formData.append('storeLink', storeLink);  // ✅ renamed key from "mama" to "video"
 //`${import.meta.env.VITE_API_URL}/api/item`
       const response = await axios.post(
-      "https://reel-comm-backend-3.onrender.com//api/item",
+      "https://reel-comm-backend-3.onrender.com/api/item",
         formData,
         {
           headers: {

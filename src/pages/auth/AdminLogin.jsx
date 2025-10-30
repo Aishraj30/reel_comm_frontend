@@ -16,7 +16,7 @@ const AdminLogin = () => {
       try {
 //`${import.meta.env.VITE_API_URL}/api/item`
         const response = await axios.post(
-            ("https://reel-comm-backend-3.onrender.com//api/user/adminlogin"),
+            ("https://reel-comm-backend-3.onrender.com/api/user/adminlogin"),
             {email , password},
             {withCredentials: true}
         )

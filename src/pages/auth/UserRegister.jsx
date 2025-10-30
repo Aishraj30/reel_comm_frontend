@@ -14,7 +14,7 @@ const UserRegister = () => {
 
     try {
       const response = await axios.post(
-       "https://reel-comm-backend-3.onrender.com//api/user/register",
+       "https://reel-comm-backend-3.onrender.com/api/user/register",
         { fullname, email, password },
         { withCredentials: true }
       );
